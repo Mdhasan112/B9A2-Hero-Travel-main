@@ -15,7 +15,7 @@ body {
   font-size: 16px;
 }
 .section-title {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 700;
 }
 .text-grey-style {
@@ -107,17 +107,43 @@ button {
   width: 50%;
   margin-right: 30px;
 }
-/* .popular-tour-content ul {
-  
-} */
+.popular-tour-content p {
+  line-height: 26px;
+}
 .popular-tour-content li {
   margin: 20px 0;
-  line-height: 24px;
+  line-height: 26px;
   margin-left: 30px;
 }
 .tour-list {
   margin-top: 20px;
 }
 .popular-tour-img img {
+  width: 100%;
+}
+
+/* destination section styles */
+.destination-container {
+  margin-top: 100px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.destination-content {
+  width: 650px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.destination-content p {
+  padding-top: 20px;
+}
+.row-destination {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.row-destination img {
   width: 100%;
 }
