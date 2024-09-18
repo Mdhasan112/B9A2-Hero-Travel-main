@@ -157,6 +157,11 @@ button {
 }
 .why-choose-us-content {
   text-align: center;
+  width: 650px;
+  margin: auto;
+}
+.why-choose-us-content p {
+  margin-top: 20px;
 }
 .card-container {
   display: flex;
@@ -164,7 +169,23 @@ button {
   gap: 30px;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 .card-container .card {
   width: 550px;
+  padding: 30px;
+  border-radius: 15px;
+}
+.card h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-container #new-styles-1 {
+  background-color: #fffbf7;
+}
+.card-container #new-styles-2 {
+  background-color: #f4fdff;
+}
+.card-container #new-styles-3 {
+  background-color: #fef6f6;
 }
