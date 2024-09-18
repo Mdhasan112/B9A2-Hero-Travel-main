@@ -189,3 +189,71 @@ button {
 .card-container #new-styles-3 {
   background-color: #fef6f6;
 }
+
+/* discount section styles */
+.discount-container {
+  margin-top: 100px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.discount-content {
+  text-align: center;
+  width: 650px;
+  margin: auto;
+}
+.discount-content p {
+  margin-top: 20px;
+}
+.discount-card {
+  position: relative;
+  margin-top: 50px;
+}
+.discount-details {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+}
+.discount-detail-2 {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+}
+.discount-info {
+  display: flex;
+}
+.discount-info li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 20px;
+}
+.discount-card .fa-solid {
+  color: #ff5400;
+  padding-right: 3px;
+}
+.discount-card-title {
+  font-size: 32px;
+  color: #18181f;
+  margin: 10px 0;
+}
+.discount-card-destails-info {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.discount-details h5,
+.discount-detail-2 h5 {
+  font-size: 26px;
+  color: #18181f;
+  margin-bottom: 15px;
+  color: #ff5400;
+}
