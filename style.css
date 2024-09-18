@@ -363,3 +363,40 @@ button {
   font-size: 14px;
   opacity: 0.8;
 }
+
+/* footer section styles */
+.footer-container {
+  margin-top: 100px;
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-container img {
+  width: 200px;
+}
+.footer-content {
+  text-align: center;
+  width: 70%;
+  border-bottom: 1 px solid grey;
+}
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+.footer-icon li {
+  list-style: none;
+  /* margin-right: 20px; */
+  font-size: 25px;
+}
+.footer-content p {
+  border-top: 1px solid gray;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 30px;
+}
