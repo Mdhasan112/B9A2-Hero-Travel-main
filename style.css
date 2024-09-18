@@ -257,3 +257,11 @@ button {
   margin-bottom: 15px;
   color: #ff5400;
 }
+.discount-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.discount-btn .btn-primary {
+  width: 200px;
+}
